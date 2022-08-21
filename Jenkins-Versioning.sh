@@ -5,4 +5,5 @@ mkdir -p versions
 cp target/vprofile-v2.war versions/vprofile-V$BUILD_ID.war
 #  jenkins have many variables  : https://phoenixnap.com/kb/jenkins-environment-variables#ftoc-heading-1
 #adding some variables 
-
+# variables number depends running build times 
+#formating versions : 

@@ -17,3 +17,7 @@ cp target/vprofile-v2.war versions/vprofile-V$VERSION.war   # taken input from t
 #plugin = manage jenkins = manage plugin 
 #8080/restart in url : restart jenkins
 #power system 
+cp target/vprofile-v2.war versions/vprofile-V$BUILD_TIMESTAMP.war   # taken input from the user, to determine the version 
+#we can make two variable both as : 
+cp target/vprofile-v2.war versions/vprofile-V$BUILD_TIMESTAMP-$BUILD_ID.war 
+#datetime in plugin : UTC format 

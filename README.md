@@ -37,13 +37,22 @@ undertsanding the flow of CI pipline
  2. setup nexus 
  3. sonarqube setup 
  4. check od security groub 
- 5. install plugin needed 
- 6.integrate all with jenkins 
- 7. writr a piplin e script 
- 8. set notification 
+ 6. install plugin needed 
+ 7.integrate all with jenkins 
+ 8. writr a piplin e script 
+ 9. set notification 
  
  
  
  * integrated with other tools : github, snoar, cube , nexus 
  
- 
+ ---------------------------------------------------------------------------
+ [22-8-2022] change log 
+ 1. re-create certificare with kb data , 
+  cert.crt private.key 
+ 2. uploaded from file zilla and delete the previus certificate
+ 3. remove hashing in docker-compose.yml 
+ 4. run the docker but the probelm isnt solved 
+ 5. editing persmion of cerfticate and key (execute ) and make jenkins the owner 
+6. run and restart docker 
+7. the unsecure jenkins doesnt open 
